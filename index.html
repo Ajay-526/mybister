@@ -19,7 +19,7 @@
             <a href='#'><img src="images/LOGO black.png" id="logowhite" height="90px" width="200px"/></a>
             <li><a href='#' id="nav1">Home</a></li>
             <li><a href='#' id="nav1">About</a></li>
-            <li><a href='#section4'>Contact</a></li>
+            <li><a href='#section4' id="nav1">Contact</a></li>
             <li>
             <div class="dropdown" style="display: block;">
               <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -175,7 +175,7 @@
     </section>
     <section class="sec-4" id="section4">
         <h1 class="head" style="font-weight: bold;">WE ARE BRINGING THE BEST FOR YOU</h1>
-        <h1 style="text-align: right; margin-right: 230px; font-weight: bold;color: white;" class="bisterholders">#Bistar Holder Speaks!</h1>
+        <h1 style="text-align: right; margin-right: 230px; font-weight: bold;" class="bisterholders">#Bistar Holder Speaks!</h1>
         <br>
         <div class="flexarrange">
           <div class="socialicons">
@@ -236,12 +236,15 @@
             </ul>
           </div>
           <div>
-            <h2>Work With US</h2>
+            <h2 onclick="redirect1();">Work With US</h2>
           </div>
         </div>
     </section>
 
     <script>
+      function redirect1() {
+        location.href = '#';
+      }
         function fun(){
             location.href = '#section2';
         }
