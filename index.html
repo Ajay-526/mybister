@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bister</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+  
+    <nav id='navbar'>
+        <ul id='navitems'>
+            <a href='#'><img src="images/LOGO black.png" id="logowhite" height="90px" width="200px"/></a>
+            <li><a href='#' id="nav1">Home</a></li>
+            <li><a href='#' id="nav1">About</a></li>
+            <li><a href='#section4'>Contact</a></li>
+            <li>
+            <div class="dropdown" style="display: block;">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Work with us
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Residence</a></li>
+                <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                <li><a class="dropdown-item" href="#">Tutorial Classes</a></li>
+              </ul>
+            </div>
+          </li>
+            <!-- <li><a href='#' id="work" style="color: white;">Work with us</a></li> -->
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <div class="container-fluid">
+                <img src="./images/LOGO black.png" id="logoblack" width="450px" height="230px">
+                <input type="text" placeholder="search Location" style="border-color: none; width: 300px; border: 0;">
+                <button style="margin-left: 27px;" class="btn btn-primary" onclick="fun();">Get Started</button>
+            </div>
+            <div id="section2">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/pocket.jpg" class="card-img-top" alt="pocket friendlu">
+                <div class="card-body">
+                  <h1>Pocket friendly</h1>
+                  <p class="card-text">With love no brokerage fee,  
+                    no hidden costs because you deserve the best and we provide best..</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./images/security.jpg" class="card-img-top" alt="Safety and security">
+                <div class="card-body">
+                  <h1>Saftey & security</h1>
+                  <p class="card-text">Security gards presents full Round ‘o’ clock,
+                    mybister properties are safer like home, secure like bank..</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./images/food.jpg" class="card-img-top" alt="Great Incentives">
+                <div class="card-body">
+                  <h1>Great incentives</h1>
+                  <p class="card-text">We bring smile on our customers faces, if they had any plans out of my bister..</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="tag-2">Stay royal, view your own hostels and live happily :)</h2>
+            <div class="gids">
+                <div class='cards'>
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/hostel1.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/hostel2.png" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <h5>Laxmi Deluxe Hostel</h5>
+                    <h6>Duplex rooms avaiable with an adujustable size of 100 rooms</h6>
+                    <button class='btn btn-secondary' onclick="fun2();">Book Rooms</button><br>
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                </div>
+                <div class='cards'>
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/hostel3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/hostel3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <h5>Laxmi Men's Hostel</h5>
+                    <h6>Duplex rooms avaiable with an adujustable size of 100 rooms</h6>
+                    <button class='btn btn-secondary' onclick="fun2();">Book Rooms</button><br>
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                </div>
+                <div class='cards'>
+                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/hostel4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/hostel5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <h5>Laxmi Boys Hostel</h5>
+                    <h6>Duplex rooms avaiable with an adujustable size of 100 rooms</h6>
+                    <button class='btn btn-secondary' onclick="fun2();">Book Rooms</button><br>
+                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                </div>
+            </div>
+    </section>
+    <h2 class="tag-2">Feel like your home</h2>
+    <section class="sec-2">
+        <div class="cards" style="width: 18rem;">
+            <img class="card-img-top" src="./images/bister-1-1.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Celebration Rooms</p>
+            </div>
+        </div>
+        <div class="cards" style="width: 18rem;">
+            <img class="card-img-top" src="./images/bister-2-2.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Gym Subscriptions</p>
+            </div>
+        </div>
+        <div class="cards" style="width: 18rem;">
+            <img class="card-img-top" src="./images/bister-3-3.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Digital Events</p>
+            </div>
+        </div>
+        <div class="cards" style="width: 18rem;">
+            <img class="card-img-top" src="./images/bister-4-4.png" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Indore Games</p>
+            </div>
+        </div>
+    </section>
+    <section class="sec-4" id="section4">
+        <h1 class="head" style="font-weight: bold;">WE ARE BRINGING THE BEST FOR YOU</h1>
+        <h1 style="text-align: right; margin-right: 230px; font-weight: bold;color: white;">#Bistar Holder Speaks!</h1>
+        <br>
+        <div class="flexarrange">
+          <div class="socialicons">
+            <button class="social" style="font-size: 30px; font-weight: 700; background-color: #00ACEE; border-radius: 23px;" onclick="social1();">#TWITTER</button>
+            <button class="social" style="font-size: 30px; font-weight: 700; background-color: #F15353; border-radius: 23px;" onclick="social2();">#INSTAGRAM</button>
+            <button class="social" style="font-size: 30px; font-weight: 700; background-color: #4267B2; border-radius: 23px;">#FACEBOOK</button>
+          </div>
+          <div class="comments">
+            <div class="list-group">
+              <a href="https://instagram.com/sandip_reddie_?igshid=YmMyMTA2M2Y=" class="list-group-item list-group-item-action active" aria-current="true">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">@Bunty</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Shared dorms and communal spaces make hostels a great place for meeting new people. Even if you prefer to stay in a private room.</p>
+              </a><br>
+              <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">@Ajay Kumar</h5>
+                  <small class="text-muted">5 days ago</small>
+                </div>
+                <p class="mb-1">Whether you're a backpacker on a longer adventure or a city-tripper soaking in some culture, hostels help you to save money on accommodation, so you can experience more of the world. 
+                </p>
+              </a><br>
+            </div>
+        </div>  
+        </div>
+    </section>
+    <section class="section3">
+        <div class="about1">
+          <div class="sec3a1">
+            <img src="./images/pic2.png" height="100px" width="100px">
+            <h2>Stay Royal</h2>
+          </div>
+          <div>
+            <br>
+            <h1>Location</h1>
+            <ul>
+              <li>Gowra Tullips</li>
+              <li>Hitechcity</li>
+              <li>Hyderabad</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="about2">
+          <div>
+            <input type="email" placeholder="enter your email" style="height: 40px;">
+            <input type="button" value="SUBMIT" class="btn btn-danger">
+          </div>
+          <div>
+            <h2>ACCOMMODATION</h2>
+            <ul>
+              <li>HOSTELS</li>
+              <li>CO LIVING</li>
+              <li>HOTESL</li>
+              <li>BED & BREAKFAST</li>
+            </ul>
+          </div>
+          <div>
+            <h2>Work With US</h2>
+          </div>
+        </div>
+    </section>
+
+    <script>
+        function fun(){
+            location.href = '#section2';
+        }
+        function fun3(){
+            location.href = 'https://www.instagram.com';
+        }
+        function fun4(){
+            location.href = 'https://www.facebook.com';
+        }
+    </script>
+
+    <footer>
+        <h4>&copy; 2022 My Bisther community version 1.0</h4>
+    </footer>
+</body>
+</html>
