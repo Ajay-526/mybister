@@ -140,6 +140,9 @@ footer h4{
           margin-left: 10px;
           font-size: 12px;
       }
+      .bisterholders{
+          color: black;
+      }
   }
   @media screen and (max-width: 415px) {
       #nav1{
