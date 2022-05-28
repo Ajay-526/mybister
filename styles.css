@@ -143,9 +143,9 @@ footer h4{
           margin-left: 10px;
           font-size: 12px;
       }
-      .bisterholders{
+      /* .bisterholders{
           color: black;
-      }
+      } */
   }
 
   @media screen and (max-width: 768px) {
@@ -182,9 +182,9 @@ footer h4{
           margin-left: 10px;
           font-size: 12px;
       }
-      .bisterholders{
-          color: black;
-      }
+      .sec-4 .bisterholders{
+        color: black;
+    }
       #nav1{
         display: none;
       }
@@ -227,9 +227,9 @@ footer h4{
           margin-left: 10px;
           font-size: 12px;
       }
-      .bisterholders{
-          color: black;
-      }
+      .sec-4 .bisterholders{
+        color: black;
+    }
   }
 
 
@@ -421,7 +421,11 @@ footer h4{
           width: 400px;
           margin: 10px 10px;
       }
-     .sec-4 .bisterholders{
+     /* .sec-4 .bisterholders{
         color: white;
-    }
+    } */
+  }
+
+  .animated1{
+    animation-duration: 4s;
   }
